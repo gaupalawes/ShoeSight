@@ -1,0 +1,243 @@
+Info: Processing symbol 'BT1:Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical'.
+Info: Processing symbol 'C2:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'M1:Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical'.
+Info: Processing symbol 'R3:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'C1:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'R1:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'D1:Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal'.
+Info: Processing symbol 'C3:Capacitor_SMD:C_0805_2012Metric'.
+Info: Processing symbol 'R2:Resistor_SMD:R_0805_2012Metric'.
+Info: Processing symbol 'Q1:Package_TO_SOT_THT:TO-92_Inline'.
+Info: Processing symbol 'U1:XIAO_ESP32C3-main:xiao_esp32c3'.
+Info: Processing symbol 'U2:Sensor_Distance:ST_VL53L1x'.
+Info: Processing symbol 'U3:Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm'.
+Updated BT1 symbol association from  to /7aa06cba-e991-4952-a588-c9e79aa2e9c4.
+Updated BT1 fields.
+Updated BT1 sheetname to '/'.
+Updated BT1 sheetfile to 'ShoeSight.kicad_sch'.
+Add net Net-(BT1--).
+Connected BT1 pin 2 to Net-(BT1--).
+Add net Net-(BT1-+).
+Connected BT1 pin 1 to Net-(BT1-+).
+Updated BT1 unit metadata.
+Added C1 (footprint 'Capacitor_SMD:C_0805_2012Metric').
+Changed REF** reference designator to C1.
+Changed C1 value from C_0805_2012Metric to 100nF.
+Updated C1 symbol association from  to /77e06ff7-9f50-4411-8a36-ac62461a1e51.
+Updated C1 fields.
+Updated C1 sheetname to '/'.
+Updated C1 sheetfile to 'ShoeSight.kicad_sch'.
+Updated C1 footprint filters to 'C_*'.
+Add net GND.
+Connected C1 pin 1 to GND.
+Add net /3V3.
+Connected C1 pin 2 to /3V3.
+Updated C1 unit metadata.
+Added C2 (footprint 'Capacitor_SMD:C_0805_2012Metric').
+Changed REF** reference designator to C2.
+Changed C2 value from C_0805_2012Metric to 100nF.
+Updated C2 symbol association from  to /20c5fa1b-723e-4f75-90ac-c5f3f7ddb48a.
+Updated C2 fields.
+Updated C2 sheetname to '/'.
+Updated C2 sheetfile to 'ShoeSight.kicad_sch'.
+Updated C2 footprint filters to 'C_*'.
+Connected C2 pin 1 to /3V3.
+Connected C2 pin 2 to GND.
+Updated C2 unit metadata.
+Added C3 (footprint 'Capacitor_SMD:C_0805_2012Metric').
+Changed REF** reference designator to C3.
+Changed C3 value from C_0805_2012Metric to 100nF.
+Updated C3 symbol association from  to /b8aacc9a-f19d-4f43-a0f0-6e9e951dc641.
+Updated C3 fields.
+Updated C3 sheetname to '/'.
+Updated C3 sheetfile to 'ShoeSight.kicad_sch'.
+Updated C3 footprint filters to 'C_*'.
+Connected C3 pin 2 to GND.
+Connected C3 pin 1 to /3V3.
+Updated C3 unit metadata.
+Added D1 (footprint 'Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal').
+Changed REF** reference designator to D1.
+Changed D1 value from D_DO-35_SOD27_P7.62mm_Horizontal to 1N4148.
+Updated D1 symbol association from  to /00b59981-5b6c-41c6-bd12-554ce55832db.
+Updated D1 fields.
+Updated D1 sheetname to '/'.
+Updated D1 sheetfile to 'ShoeSight.kicad_sch'.
+Updated D1 footprint filters to 'D*DO?35*'.
+Add net Net-(D1-A).
+Connected D1 pin 2 to Net-(D1-A).
+Connected D1 pin 1 to /3V3.
+Updated D1 unit metadata.
+Added M1 (footprint 'Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical').
+Changed REF** reference designator to M1.
+Changed M1 value from PinHeader_1x02_P2.54mm_Vertical to Motor_DC.
+Updated M1 symbol association from  to /f70e2707-8127-4b40-8a69-1f0b5954dd30.
+Updated M1 fields.
+Updated M1 sheetname to '/'.
+Updated M1 sheetfile to 'ShoeSight.kicad_sch'.
+Updated M1 footprint filters to 'PinHeader*P2.54mm* TerminalBlock*'.
+Connected M1 pin 1 to /3V3.
+Connected M1 pin 2 to Net-(D1-A).
+Updated M1 unit metadata.
+Added Q1 (footprint 'Package_TO_SOT_THT:TO-92_Inline').
+Changed REF** reference designator to Q1.
+Changed Q1 value from TO-92_Inline to 2N2222.
+Updated Q1 symbol association from  to /76120ea3-6ed6-4a34-906e-451011dc243f.
+Updated Q1 fields.
+Updated Q1 sheetname to '/'.
+Updated Q1 sheetfile to 'ShoeSight.kicad_sch'.
+Updated Q1 footprint filters to 'TO?92*'.
+Connected Q1 pin 3 to GND.
+Add net Net-(Q1-B).
+Connected Q1 pin 2 to Net-(Q1-B).
+Connected Q1 pin 1 to Net-(D1-A).
+Updated Q1 unit metadata.
+Added R1 (footprint 'Resistor_SMD:R_0805_2012Metric').
+Changed REF** reference designator to R1.
+Changed R1 value from R_0805_2012Metric to 1k.
+Updated R1 symbol association from  to /7ab66ca0-2d81-4793-af14-a45f6801d81a.
+Updated R1 fields.
+Updated R1 sheetname to '/'.
+Updated R1 sheetfile to 'ShoeSight.kicad_sch'.
+Updated R1 footprint filters to 'R_*'.
+Add net Net-(U1-D3).
+Connected R1 pin 2 to Net-(U1-D3).
+Connected R1 pin 1 to Net-(Q1-B).
+Updated R1 unit metadata.
+Added R2 (footprint 'Resistor_SMD:R_0805_2012Metric').
+Changed REF** reference designator to R2.
+Changed R2 value from R_0805_2012Metric to 4.7k.
+Updated R2 symbol association from  to /c4055136-8f1b-47dc-876a-23aff80ec8c8.
+Updated R2 fields.
+Updated R2 sheetname to '/'.
+Updated R2 sheetfile to 'ShoeSight.kicad_sch'.
+Updated R2 footprint filters to 'R_*'.
+Connected R2 pin 1 to /3V3.
+Add net /SDA.
+Connected R2 pin 2 to /SDA.
+Updated R2 unit metadata.
+Added R3 (footprint 'Resistor_SMD:R_0805_2012Metric').
+Changed REF** reference designator to R3.
+Changed R3 value from R_0805_2012Metric to 4.7k.
+Updated R3 symbol association from  to /6f0dd878-5932-49a1-9714-55a108c6fad6.
+Updated R3 fields.
+Updated R3 sheetname to '/'.
+Updated R3 sheetfile to 'ShoeSight.kicad_sch'.
+Updated R3 footprint filters to 'R_*'.
+Add net /SCL.
+Connected R3 pin 2 to /SCL.
+Connected R3 pin 1 to /3V3.
+Updated R3 unit metadata.
+Added BT1 (footprint 'Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical').
+Added U1 (footprint 'XIAO_ESP32C3-main:xiao_esp32c3').
+Changed XIAO ESP32C3 reference designator to U1.
+Changed U1 value from ESP32C3 to XIAO ESP32C3.
+Updated U1 symbol association from  to /6b49ce23-d3c0-4647-b16e-cef19410dd80.
+Updated U1 fields.
+Updated U1 sheetname to '/'.
+Updated U1 sheetfile to 'ShoeSight.kicad_sch'.
+Add net unconnected-(U1-D2-Pad3).
+Connected U1 pin 3 to unconnected-(U1-D2-Pad3).
+Connected U1 pin 4 to Net-(U1-D3).
+Add net unconnected-(U1-D1-Pad2).
+Connected U1 pin 2 to unconnected-(U1-D1-Pad2).
+Add net unconnected-(U1-D9-Pad10).
+Connected U1 pin 10 to unconnected-(U1-D9-Pad10).
+Connected U1 pin 12 to /3V3.
+Connected U1 pin 6 to /SCL.
+Connected U1 pin B+ to Net-(BT1-+).
+Connected U1 pin 5 to /SDA.
+Add net unconnected-(U1-D6-Pad7).
+Connected U1 pin 7 to unconnected-(U1-D6-Pad7).
+Add net unconnected-(U1-D10-Pad11).
+Connected U1 pin 11 to unconnected-(U1-D10-Pad11).
+Add net unconnected-(U1-D7-Pad8).
+Connected U1 pin 8 to unconnected-(U1-D7-Pad8).
+Add net unconnected-(U1-D8-Pad9).
+Connected U1 pin 9 to unconnected-(U1-D8-Pad9).
+Connected U1 pin B- to Net-(BT1--).
+Connected U1 pin 13 to GND.
+Add net unconnected-(U1-VUSB-Pad14).
+Connected U1 pin 14 to unconnected-(U1-VUSB-Pad14).
+Add net unconnected-(U1-D0-Pad1).
+Connected U1 pin 1 to unconnected-(U1-D0-Pad1).
+Updated U1 unit metadata.
+Changed REF** reference designator to BT1.
+Added U2 (footprint 'Sensor_Distance:ST_VL53L1x').
+Changed REF** reference designator to U2.
+Changed U2 value from ST_VL53L1x to VL53L0CXV0DH1.
+Updated U2 symbol association from  to /fda47ce1-65f6-4bb0-a0fb-3d12a4523841.
+Updated U2 fields.
+Updated U2 sheetname to '/'.
+Updated U2 sheetfile to 'ShoeSight.kicad_sch'.
+Updated U2 footprint filters to 'ST*VL53L1x*'.
+Connected U2 pin 9 to /SDA.
+Connected U2 pin 6 to GND.
+Add net unconnected-(U2-GPIO1-Pad7).
+Connected U2 pin 7 to unconnected-(U2-GPIO1-Pad7).
+Connected U2 pin 4 to GND.
+Connected U2 pin 5 to /3V3.
+Connected U2 pin 1 to /3V3.
+Connected U2 pin 12 to GND.
+Connected U2 pin 1 to /3V3.
+Connected U2 pin 11 to /3V3.
+Connected U2 pin 2 to GND.
+Connected U2 pin 10 to /SCL.
+Connected U2 pin 3 to GND.
+Add net unconnected-(U2-DNC-Pad8).
+Connected U2 pin 8 to unconnected-(U2-DNC-Pad8).
+Updated U2 unit metadata.
+Changed BT1 value from JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical to Battery.
+Added U3 (footprint 'Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm').
+Changed REF** reference designator to U3.
+Changed U3 value from InvenSense_QFN-24_4x4mm_P0.5mm to MPU-6050.
+Updated U3 symbol association from  to /ae047a9f-1b91-4528-9980-99be48d3c479.
+Updated U3 fields.
+Updated U3 sheetname to '/'.
+Updated U3 sheetfile to 'ShoeSight.kicad_sch'.
+Updated U3 footprint filters to '*QFN*4x4mm*P0.5mm*'.
+Add net unconnected-(U3-INT-Pad12).
+Connected U3 pin 12 to unconnected-(U3-INT-Pad12).
+Connected U3 pin 13 to /3V3.
+Add net unconnected-(U3-NC-Pad5).
+Connected U3 pin 5 to unconnected-(U3-NC-Pad5).
+Add net unconnected-(U3-CPOUT-Pad20).
+Connected U3 pin 20 to unconnected-(U3-CPOUT-Pad20).
+Add net unconnected-(U3-FSYNC-Pad11).
+Connected U3 pin 11 to unconnected-(U3-FSYNC-Pad11).
+Connected U3 pin 23 to /SCL.
+Add net unconnected-(U3-NC-Pad2).
+Connected U3 pin 2 to unconnected-(U3-NC-Pad2).
+Add net unconnected-(U3-NC-Pad15).
+Connected U3 pin 15 to unconnected-(U3-NC-Pad15).
+Add net unconnected-(U3-RESV-Pad21).
+Connected U3 pin 21 to unconnected-(U3-RESV-Pad21).
+Add net unconnected-(U3-REGOUT-Pad10).
+Connected U3 pin 10 to unconnected-(U3-REGOUT-Pad10).
+Connected U3 pin 24 to /SDA.
+Connected U3 pin 18 to GND.
+Add net unconnected-(U3-NC-Pad3).
+Connected U3 pin 3 to unconnected-(U3-NC-Pad3).
+Add net unconnected-(U3-RESV-Pad19).
+Connected U3 pin 19 to unconnected-(U3-RESV-Pad19).
+Add net unconnected-(U3-CLKIN-Pad1).
+Connected U3 pin 1 to unconnected-(U3-CLKIN-Pad1).
+Add net unconnected-(U3-NC-Pad17).
+Connected U3 pin 17 to unconnected-(U3-NC-Pad17).
+Connected U3 pin 9 to GND.
+Add net unconnected-(U3-NC-Pad14).
+Connected U3 pin 14 to unconnected-(U3-NC-Pad14).
+Add net unconnected-(U3-RESV-Pad22).
+Connected U3 pin 22 to unconnected-(U3-RESV-Pad22).
+Add net unconnected-(U3-NC-Pad16).
+Connected U3 pin 16 to unconnected-(U3-NC-Pad16).
+Add net unconnected-(U3-NC-Pad4).
+Connected U3 pin 4 to unconnected-(U3-NC-Pad4).
+Connected U3 pin 8 to /3V3.
+Add net unconnected-(U3-AUX_DA-Pad6).
+Connected U3 pin 6 to unconnected-(U3-AUX_DA-Pad6).
+Add net unconnected-(U3-AUX_CL-Pad7).
+Connected U3 pin 7 to unconnected-(U3-AUX_CL-Pad7).
+Updated U3 unit metadata.
+
+
+Info: Total warnings: 0, errors: 0.
