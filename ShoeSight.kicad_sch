@@ -2722,6 +2722,12 @@
 		(uuid "ac5b6541-8dcc-4b81-9e9b-41f22ff85292")
 	)
 	(junction
+		(at 203.2 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c15cf582-84cd-4450-94b7-4cc3dfd9c1ce")
+	)
+	(junction
 		(at 133.35 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2752,10 +2758,6 @@
 		(uuid "207c6dcd-f29e-4100-8012-e0b9fd57e294")
 	)
 	(no_connect
-		(at 203.2 95.25)
-		(uuid "279584aa-4237-4587-8eec-f4a026dd411c")
-	)
-	(no_connect
 		(at 88.9 55.88)
 		(uuid "360208a0-da29-4823-b28c-507e6642d596")
 	)
@@ -2766,10 +2768,6 @@
 	(no_connect
 		(at 125.73 119.38)
 		(uuid "425046ff-cca5-47b2-8cbf-c2ab9b38f268")
-	)
-	(no_connect
-		(at 203.2 97.79)
-		(uuid "4bfe6362-8faa-4391-9ac4-93f97c051091")
 	)
 	(no_connect
 		(at 125.73 134.62)
@@ -2806,6 +2804,16 @@
 	(no_connect
 		(at 203.2 90.17)
 		(uuid "fa9d2313-7fa6-4156-8cee-9715a3c58bcf")
+	)
+	(wire
+		(pts
+			(xy 203.2 97.79) (xy 203.2 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00002981-a32e-4c06-aa44-f5980b89be6b")
 	)
 	(wire
 		(pts
@@ -2896,6 +2904,16 @@
 			(type default)
 		)
 		(uuid "72ec2c41-92a7-42de-86f9-2a2983dec52c")
+	)
+	(wire
+		(pts
+			(xy 203.2 95.25) (xy 203.2 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "730eacb9-fd15-4521-a616-0af91b70a250")
 	)
 	(wire
 		(pts
@@ -3324,6 +3342,85 @@
 			(project "ShoeSight"
 				(path "/fba9baaa-5c68-4385-8f8b-80aa6fdc0d44"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 210.82 97.79 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "205970e7-7f47-4f42-825e-d93d4bbe7251")
+		(property "Reference" "#PWR04"
+			(at 217.17 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 97.7899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac5fbacb-f39c-4b41-b515-5a4aee982534")
+		)
+		(instances
+			(project "ShoeSight"
+				(path "/fba9baaa-5c68-4385-8f8b-80aa6fdc0d44"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -3800,6 +3897,86 @@
 			(project "ShoeSight"
 				(path "/fba9baaa-5c68-4385-8f8b-80aa6fdc0d44"
 					(reference "#FLG04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 207.01 97.79 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "52f3cc31-ebd0-45d2-b19f-912f2644c436")
+		(property "Reference" "C4"
+			(at 207.01 90.17 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 207.01 92.71 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 210.82 96.8248 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 207.01 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fcc4592a-466d-4a1e-afb9-2fee1f84c295")
+		)
+		(pin "2"
+			(uuid "58818b1a-264b-49b8-95f9-c2c030f5c33e")
+		)
+		(instances
+			(project "ShoeSight"
+				(path "/fba9baaa-5c68-4385-8f8b-80aa6fdc0d44"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -5105,6 +5282,165 @@
 			(project "ShoeSight"
 				(path "/fba9baaa-5c68-4385-8f8b-80aa6fdc0d44"
 					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 210.82 104.14 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c50cdfef-302c-403f-9f54-a87cc22307c5")
+		(property "Reference" "#PWR010"
+			(at 217.17 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 214.63 104.1399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 210.82 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 210.82 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92af24f4-7b79-48e5-b821-982463aa3aa6")
+		)
+		(instances
+			(project "ShoeSight"
+				(path "/fba9baaa-5c68-4385-8f8b-80aa6fdc0d44"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 207.01 104.14 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d1d48a18-b932-4029-bab8-58c37c9128a1")
+		(property "Reference" "C5"
+			(at 207.01 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2nF"
+			(at 207.01 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 210.82 103.1748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 207.01 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab357091-3299-4059-a96f-eb3dd69176fc")
+		)
+		(pin "2"
+			(uuid "80cb1e09-ebec-47ce-abe8-448d5a09f155")
+		)
+		(instances
+			(project "ShoeSight"
+				(path "/fba9baaa-5c68-4385-8f8b-80aa6fdc0d44"
+					(reference "C5")
 					(unit 1)
 				)
 			)

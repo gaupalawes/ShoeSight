@@ -487,6 +487,19 @@
       "wire_dangling": "error"
     }
   },
+  "kicad_routing_tools": {
+    "fab_floor_origin": {
+      "min_hole_clearance": 0.127,
+      "min_through_hole_diameter": 0.15,
+      "min_track_width": 0.127,
+      "min_via_annular_width": 0.05,
+      "min_via_diameter": 0.25
+    },
+    "records_rev": 2,
+    "repo_rules": {
+      "min_via_drill": 0.15
+    }
+  },
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
@@ -528,7 +541,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "shoesight/",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
@@ -724,18 +737,5 @@
       "version": 0
     },
     "tuning_profiles_impedance_geometric": []
-  },
-  "kicad_routing_tools": {
-    "fab_floor_origin": {
-      "min_track_width": 0.127,
-      "min_via_diameter": 0.25,
-      "min_via_annular_width": 0.05,
-      "min_through_hole_diameter": 0.15,
-      "min_hole_clearance": 0.127
-    },
-    "records_rev": 2,
-    "repo_rules": {
-      "min_via_drill": 0.15
-    }
   }
 }
