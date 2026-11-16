@@ -709,7 +709,7 @@
         "uuid": "fba9baaa-5c68-4385-8f8b-80aa6fdc0d44"
       }
     ],
-    "used_designators": "#FLG1-4,#PWR1-9,BT1,C1-3,D1,M1,Q1,R1-3,U2-3",
+    "used_designators": "#FLG1-4,#PWR1-10,BT1,C1-5,D1,M1,Q1,R1-3,U2-3",
     "variants": []
   },
   "sheets": [
@@ -724,5 +724,18 @@
       "version": 0
     },
     "tuning_profiles_impedance_geometric": []
+  },
+  "kicad_routing_tools": {
+    "fab_floor_origin": {
+      "min_track_width": 0.127,
+      "min_via_diameter": 0.25,
+      "min_via_annular_width": 0.05,
+      "min_through_hole_diameter": 0.15,
+      "min_hole_clearance": 0.127
+    },
+    "records_rev": 2,
+    "repo_rules": {
+      "min_via_drill": 0.15
+    }
   }
 }
