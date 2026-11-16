@@ -4491,7 +4491,7 @@
 				)
 			)
 		)
-		(property "Value" "Battery"
+		(property "Value" "3-5V"
 			(at 107.3785 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5469,7 +5469,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "Motor_DC"
+		(property "Value" "Vibration Motor"
 			(at 80.01 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
